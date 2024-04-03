@@ -123,6 +123,7 @@ define GLIBC_CONFIGURE_CMDS
 		--without-cvs \
 		--disable-profile \
 		--without-gd \
+		--disable-werror \
 		--enable-obsolete-rpc \
 		--enable-kernel=$(call qstrip,$(BR2_TOOLCHAIN_HEADERS_AT_LEAST)) \
 		--with-headers=$(STAGING_DIR)/usr/include)
